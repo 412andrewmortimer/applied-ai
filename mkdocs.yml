@@ -1,0 +1,85 @@
+site_name: Applied AI Docs
+site_description: Docs for Applied AI
+site_author: Applied AI
+site_url: https://412andrewmortimer.github.io/applied-ai-docs/
+site_dir: site
+
+# Material Theme Configuration
+theme:
+  name: material
+  repo_url:
+  icon:
+    logo: material/library
+  language: en
+  font:
+    text: Lexend
+  extra_css:
+  - assets/
+  features:
+  - navigation.expand
+  - navigation.footer
+  - navigation.instant
+  - navigation.instant.prefetch
+  - navigation.instant.progress
+  - navigation.sections
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.top
+  - navigation.tracking
+  - toc.integrate
+  - navigation.indexes
+  palette:
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: deep purple
+    accent: teal
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+
+  # Palette toggle for dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: deep purple
+    accent: teal
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+
+# PyMdown Extensions
+markdown_extensions:
+- admonition
+- attr_list
+- md_in_html
+- pymdownx.details
+- pymdownx.keys
+- pymdownx.magiclink
+- pymdownx.snippets:
+    base_path: docs/libs
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji ""
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg ""
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format ""
+- pymdownx.tabbed:
+    alternate_style: true
+- toc:
+    permalink: true
+    slugify: !!python/object/apply:pymdownx.slugs.slugify
+      kwds:
+        case: lower
+
+nav:
+- Home: index.md
+- Courses:
+  - Data Mining:
+    - TBD: courses/data-mining/index.md
+  - Intro to AI:
+    - AI A Modern Approach:
+      - Chapter 2 Intelligent Agents:
+        - Overview: courses/intro-to-ai/chapter2/index.md
+        - Intelligent Agents: courses/intro-to-ai/chapter2/intelligent-agents.md
+        - Agents and Environments: courses/intro-to-ai/chapter2/agents-and-environments.md
