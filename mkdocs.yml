@@ -16,14 +16,14 @@ theme:
   extra_css:
   - assets/
   features:
-  - navigation.expand
+  # - navigation.expand
   - navigation.footer
   - navigation.instant
   - navigation.instant.prefetch
   - navigation.instant.progress
   - navigation.sections
   - navigation.tabs
-  - navigation.tabs.sticky
+  # - navigation.tabs.sticky
   - navigation.top
   - navigation.tracking
   - toc.integrate
@@ -75,11 +75,18 @@ markdown_extensions:
 nav:
 - Home: index.md
 - Courses:
-  - Data Mining:
-    - TBD: courses/data-mining/index.md
   - Intro to AI:
     - AI A Modern Approach:
       - Chapter 2 Intelligent Agents:
-        - Overview: courses/intro-to-ai/chapter2/index.md
-        - Intelligent Agents: courses/intro-to-ai/chapter2/intelligent-agents.md
-        - Agents and Environments: courses/intro-to-ai/chapter2/agents-and-environments.md
+        - courses/intro-to-ai/chapter2/index.md
+        - courses/intro-to-ai/chapter2/intelligent-agents.md
+        - courses/intro-to-ai/chapter2/agents-and-environments.md
+      - Chapter 5 Adversarial Search and Games:
+        - courses/intro-to-ai/chapter5/index.md
+        - Game Theory: 
+            - courses/intro-to-ai/chapter5/game-theory.md
+            - courses/intro-to-ai/chapter5/two-player-zero-sum-games.md
+            - courses/intro-to-ai/chapter5/minimax-deep-dive.md
+  - Resources:
+    - Useful Links: courses/intro-to-ai/resources/useful-links.md
+      

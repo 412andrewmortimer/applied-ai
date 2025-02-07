@@ -1,4 +1,4 @@
-# Chapter 2: Intelligent Agents
+# 2.0 Intelligent Agents
 
 ## Overview
 
