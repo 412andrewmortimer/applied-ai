@@ -76,7 +76,6 @@ markdown_extensions:
         case: lower
 
 nav:
-- Home: index.md
 - Courses:
   - Intro to AI:
     - Study Guide:
@@ -92,6 +91,51 @@ nav:
         - courses/intro-to-ai/chapter5/5.2.md
         - courses/intro-to-ai/chapter5/5.2.1_minimax.md
         - courses/intro-to-ai/chapter5/5.2.2_multiplayer_minimax.md
+        - courses/intro-to-ai/chapter5/5.2.3_alpha_beta_pruning.md
+        - courses/intro-to-ai/chapter5/5.2.4_move_ordering.md
+        - courses/intro-to-ai/chapter5/5.3_cutting_off_search.md
+        - courses/intro-to-ai/chapter5/5.3.1_cutting_off_search_in_depth_limited_minimax.md
+        - courses/intro-to-ai/chapter5/5.3.2_effect_of_depth_limitations.md
+        - courses/intro-to-ai/chapter5/5.4_forward_pruning.md
+        - courses/intro-to-ai/chapter5/5.4.1_forward_pruning_strategies.md
+        - courses/intro-to-ai/chapter5/5.4.2_risks_of_aggressive_forward_pruning.md
+        - courses/intro-to-ai/chapter5/5.5_search_extensions.md
+        - courses/intro-to-ai/chapter5/5.5.1_extensions_for_deeper_analysis.md
+        - courses/intro-to-ai/chapter5/5.5.2_improving_evaluation_functions.md
+        - courses/intro-to-ai/chapter5/5.6_stochastic_games.md
+        - courses/intro-to-ai/chapter5/5.6.1_stochastic_game_trees.md
+        - courses/intro-to-ai/chapter5/5.6.2_expectimax_algorithm.md
+        - courses/intro-to-ai/chapter5/5.7_partially_observable_games.md
+        - courses/intro-to-ai/chapter5/5.7.1_games_with_hidden_information.md
+        - courses/intro-to-ai/chapter5/5.7.2_search_methods_for_partially_observable_games.md
+        - courses/intro-to-ai/chapter5/5.8_state_of_the_art_game_programs.md
+        - courses/intro-to-ai/chapter5/5.8.1_historical_ai_game_programs.md
+        - courses/intro-to-ai/chapter5/5.8.2_modern_advancements_in_game_ai.md
+      - Chapter 6:
+        - courses/intro-to-ai/chapter6/overview.md
+        - courses/intro-to-ai/chapter6/6.1_defining_csp.md
+        - courses/intro-to-ai/chapter6/6.1.1_variables_domains_constraints.md
+        - courses/intro-to-ai/chapter6/6.1.2_csp_examples.md
+        - courses/intro-to-ai/chapter6/6.2_constraint_propagation.md
+        - courses/intro-to-ai/chapter6/6.2.1_node_consistency.md
+        - courses/intro-to-ai/chapter6/6.2.2_arc_consistency.md
+        - courses/intro-to-ai/chapter6/6.2.3_path_consistency.md
+        - courses/intro-to-ai/chapter6/6.2.4_k_consistency.md
+        - courses/intro-to-ai/chapter6/6.2.5_global_constraints.md
+        - courses/intro-to-ai/chapter6/6.2.6_sudoku_as_csp.md
+        - courses/intro-to-ai/chapter6/6.3_backtracking_search.md
+        - courses/intro-to-ai/chapter6/6.3.1_variable_value_ordering.md
+        - courses/intro-to-ai/chapter6/6.3.2_constraint_learning.md
+        - courses/intro-to-ai/chapter6/6.3.3_intelligent_backtracking.md
+        - courses/intro-to-ai/chapter6/6.3.4_local_search_for_csps.md
+        - courses/intro-to-ai/chapter6/6.4_structure_of_csps.md
+        - courses/intro-to-ai/chapter6/6.4.1_tree_structured_csps.md
+        - courses/intro-to-ai/chapter6/6.4.2_nearly_tree_structured_csps.md
+        - courses/intro-to-ai/chapter6/6.4.3_cutset_conditioning.md
+        - courses/intro-to-ai/chapter6/6.5_real_world_applications.md
+        - courses/intro-to-ai/chapter6/6.5.1_scheduling_problems.md
+        - courses/intro-to-ai/chapter6/6.5.2_cryptarithmetic_logic_puzzles.md
+        - courses/intro-to-ai/chapter6/6.5.3_resource_allocation.md
     - Resources:
       - Useful Links: courses/intro-to-ai/resources/useful-links.md
       
