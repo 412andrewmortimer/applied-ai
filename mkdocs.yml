@@ -16,18 +16,21 @@ theme:
   extra_css:
   - assets/
   features:
-  # - navigation.expand
-  - navigation.footer
   - navigation.instant
-  - navigation.instant.prefetch
   - navigation.instant.progress
-  - navigation.sections
-  - navigation.tabs
-  # - navigation.tabs.sticky
-  - navigation.top
   - navigation.tracking
-  - toc.integrate
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.sections
+  - navigation.expand
   - navigation.indexes
+  - navigation.top
+  - navigation.footer
+  - toc.integrate
+  - toc.follow
+  extra: 
+    generator: false
+
   palette:
   - media: "(prefers-color-scheme: light)"
     scheme: default
@@ -76,17 +79,19 @@ nav:
 - Home: index.md
 - Courses:
   - Intro to AI:
-    - AI A Modern Approach:
-      - Chapter 2 Intelligent Agents:
-        - courses/intro-to-ai/chapter2/index.md
+    - Study Guide:
+      - AI A Modern Approach: courses/index.md
+      - Chapter 2:
         - courses/intro-to-ai/chapter2/intelligent-agents.md
         - courses/intro-to-ai/chapter2/agents-and-environments.md
-      - Chapter 5 Adversarial Search and Games:
-        - courses/intro-to-ai/chapter5/index.md
-        - Game Theory: 
-            - courses/intro-to-ai/chapter5/game-theory.md
-            - courses/intro-to-ai/chapter5/two-player-zero-sum-games.md
-            - courses/intro-to-ai/chapter5/minimax-deep-dive.md
-  - Resources:
-    - Useful Links: courses/intro-to-ai/resources/useful-links.md
+      - Chapter 5: 
+        - courses/intro-to-ai/chapter5/overview.md
+        - courses/intro-to-ai/chapter5/game-theory.md
+        - courses/intro-to-ai/chapter5/two-player-zero-sum-games.md
+        - courses/intro-to-ai/chapter5/minimax-deep-dive.md
+        - courses/intro-to-ai/chapter5/5.2.md
+        - courses/intro-to-ai/chapter5/5.2.1_minimax.md
+        - courses/intro-to-ai/chapter5/5.2.2_multiplayer_minimax.md
+    - Resources:
+      - Useful Links: courses/intro-to-ai/resources/useful-links.md
       

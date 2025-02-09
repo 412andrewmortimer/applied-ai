@@ -1,4 +1,4 @@
-# **Figure 5.1: Game Tree for Tic-Tac-Toe**
+# **Notes**
 
 ## **Overview**
 Figure 5.1 from *Artificial Intelligence: A Modern Approach* represents a **game tree** for a simplified version of **Tic-Tac-Toe** (Noughts and Crosses). The diagram demonstrates how:

@@ -1,4 +1,4 @@
-# Chapter 5: Adversarial Search
+# 5.0 Adversarial Search and Games
 
 ## Overview
 - Adversarial search deals with **multi-agent environments**, where agents compete with one another.
@@ -7,21 +7,27 @@
 
 ---
 
-## **Key Concepts**
+## **🧠 Key Concepts**
+1. **Game Trees**:
+   - Represent all possible **moves and counter-moves** in a game.
+   - Used to **plan ahead** and evaluate possible outcomes.
 
-### **1. Types of Games**
-- **Deterministic, Turn-Based Games**:
-  - Example: Chess, Tic-Tac-Toe.
-  - Outcomes are predictable based on player moves.
-- **Stochastic Games**:
-  - Example: Backgammon.
-  - Introduce elements of chance (e.g., dice rolls).
-- **Perfect Information Games**:
-  - Both players have full visibility of the game state.
-  - Example: Chess, Go.
-- **Imperfect Information Games**:
-  - Players have hidden information.
-  - Example: Poker.
+2. **Minimax Algorithm**:
+   - A **decision-making strategy** assuming **both players play optimally**.
+   - **MAX** tries to maximize the outcome.
+   - **MIN** tries to minimize MAX’s advantage.
+
+3. **Alpha-Beta Pruning**:
+   - An **optimization of Minimax** that eliminates unnecessary calculations.
+   - Reduces the number of **nodes evaluated**, making the search faster.
+
+4. **Evaluation Functions**:
+   - Used when a **game tree is too large** to search exhaustively.
+   - Assigns **heuristic values** to intermediate game states.
+
+5. **Stochastic & Imperfect Information Games**:
+   - **Stochastic Games**: Incorporate randomness (e.g., dice rolls in Backgammon).
+   - **Imperfect Information Games**: Players lack full visibility (e.g., Poker).
 
 ---
 
